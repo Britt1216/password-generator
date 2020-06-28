@@ -1,6 +1,6 @@
 // generate random password
 
-function generate(){
+function generate() {
 
     //set password lenth/complexity
     let complexity = document.getElementById("slider").value;
@@ -11,7 +11,7 @@ function generate(){
 
     // create 4 loo to choose password char
 
-    for(var i = 0; i <= complexity; i++){
+    for (var i = 0; i <= complexity; i++) {
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
     }
 
@@ -20,8 +20,8 @@ function generate(){
 
     // add password to previousl gen password section
     document.getElementById("lastNums").innerHTML += password + "<br />";
-    }
+}
 
- // ste default length display of 25 
+// ste default length display of 25 
 
- document.getElementById("length").innerHTML = "length:25";
+document.getElementById("length").innerHTML = "length:25";
