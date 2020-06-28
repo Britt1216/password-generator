@@ -22,3 +22,6 @@ function generate(){
     document.getElementById("lastNums").innerHTML += password + "<br />";
     }
 
+ // ste default length display of 25 
+
+ document.getElementById("length").innerHTML = "length:25";
