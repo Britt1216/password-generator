@@ -19,7 +19,7 @@ function generate() {
     document.getElementById("display").value = password;
 
     // add password to previousl gen password section
-    document.getElementById("lastPasswords").innerHTML += password + "<br />";
+    document.getElementById("lastNums").innerHTML += password + "<br />";
 
     // site default length display of 25 
 
