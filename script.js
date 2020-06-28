@@ -10,7 +10,6 @@ function generate() {
     let password = "";
 
     // create 4 loo to choose password char
-
     for (var i = 0; i <= complexity; i++) {
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
     }
@@ -22,6 +21,8 @@ function generate() {
     document.getElementById("lastNums").innerHTML += password + "<br />";
 
     // site default length display of 25 
-
     document.getElementById("length").innerHTML = "length:25";
+
+    
+
 }
