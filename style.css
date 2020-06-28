@@ -15,7 +15,8 @@
 }
 
 #length{
-    
+   display: inline-block;
+   width: 100px; 
 }
 
 .previous_passwords {
