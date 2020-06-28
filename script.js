@@ -35,7 +35,7 @@ function generate() {
     }
 
     //copy to clipboard
-    function copypassword(){
+    function copyPassword(){
         document.getElementById("display").select();
         document.execCommand("Copy");
         alert("Password copied to clipboard");
