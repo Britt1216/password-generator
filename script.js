@@ -31,7 +31,12 @@ function generate() {
         }
         else{
             document.getElementById("length").innerHTML = "Length: 1";
-
         }
     }
 
+    //copy to clipboard
+    function copypassword(){
+        document.getElementById("display").select();
+        document.execCommand("Copy");
+        alert("Password copied to clipboard");
+    }
