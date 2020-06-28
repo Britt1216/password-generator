@@ -18,4 +18,7 @@ function generate(){
     //add password to the text box and display
     document.getElementById("display").value = password;
 
-}
+    // add password to previousl gen password section
+    document.getElementById("lastNums").innerHTML += password + "<br />";
+    }
+
