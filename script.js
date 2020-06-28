@@ -23,3 +23,11 @@ function generate() {
     // site default length display of 25 
     document.getElementById("length").innerHTML = "length:25";
 
+    // function length slider position
+    document.getElementById("slider").oninput = function(){
+        if(document.getElementById("slider").value > 0){
+            document.getElementById("length").innerHTML = "Length:" + document.getElementById("slider").value;        
+        }
+        document.getElementById("length").innerHTML = "Length: 1";
+    }
+
