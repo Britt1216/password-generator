@@ -12,7 +12,7 @@ function generate() {
     // create 4 loo to choose password char
 
     for(var i = 0; i <= complexity; i++){
-        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - ))));
+        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
     }
 
     //add password to the text box and display
