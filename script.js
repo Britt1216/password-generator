@@ -25,9 +25,13 @@ function generate() {
 
     // function length slider position
     document.getElementById("slider").oninput = function(){
+
         if(document.getElementById("slider").value > 0){
-            document.getElementById("length").innerHTML = "Length:" + document.getElementById("slider").value;        
+            document.getElementById("length").innerHTML = "Length: " + document.getElementById("slider").value;        
         }
-        document.getElementById("length").innerHTML = "Length: 1";
+        else{
+            document.getElementById("length").innerHTML = "Length: 1";
+
+        }
     }
 
